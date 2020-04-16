@@ -1,0 +1,114 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.row{
+  margin: 0;
+}
+
+h5,p{
+  margin:0;
+  padding: 0;
+}
+
+.header-row{
+  max-width: 1100px;
+  padding: 10px;
+  background-color: #c7c7c7;
+  margin-top: 50px;
+}
+
+.body-row{
+  max-width: 1100px;
+  margin-top: 20px;
+}
+
+.user-list{
+  padding: 0;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.user-card{
+  padding-right: 0;
+}
+
+.user-card .modal-header button{
+  margin-left: 10px;
+}
+
+.user-card .modal-body{
+  display: flex;
+}
+
+.user-card .modal-body .user-info{
+
+  padding: 15px 0 0 10px;
+}
+
+.user-card .modal-body .user-img{
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.user-card .modal-body .user-img img{
+  width: 100%;
+  max-width: 180px;
+}
+
+.user-card .modal-body .form-group{
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width:768px){
+  .user-card{
+    padding-left: 0;
+    margin-top: 10px;
+  }
+} 
+
+
+
+.editBtn{
+  margin-left: 3px;
+  border: 1px solid black;
+  outline: none;
+    padding: 0;
+    background: none;
+}
+
+
+.editPictureBtn{
+  position: absolute;
+  right: 15px;
+  top: 4px;
+  overflow: hidden;
+}
+
+.editPictureBtn >img{
+  width:20px !important;
+}
+
+.editPictureBtn > input{
+  position: absolute;
+  z-index: -1;
+}
+
+
+#modal-root .modal-body{
+  display: flex;
+  justify-content: center;
+}
+
+.list-group{
+  max-height: 273px;
+  overflow-y: auto;
+}
